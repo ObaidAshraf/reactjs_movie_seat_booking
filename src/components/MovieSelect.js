@@ -11,6 +11,7 @@ function MovieSelect() {
 
     return (
       <div className="movie-container">
+        <h4>Movie Seat Booking app by Obaid Ashraf</h4>
         <label>Pick a movie:</label>
         <select onChange={(e) => handleChange(e)}>
             {movies.map(movie => (
